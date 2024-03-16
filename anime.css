@@ -1,0 +1,41 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 500px;
+}
+
+ .item {
+    flex: 1;
+    height: 100%;
+ }
+
+ .item:nth-child(1) {
+    background-image: url("https://mfiles.alphacoders.com/420/420197.jpg");
+ }
+
+ .item:nth-child(2) {
+    background-image: url("https://i.pinimg.com/736x/69/d8/39/69d839b793768798ec4971184abe64f6.jpg");
+ }
+
+ .item:nth-child(3) {
+    background-image: url("https://wallpapercave.com/wp/wp6492967.jpg");
+ }
+
+ .item:nth-child(4) {
+    background-image: url("https://e0.pxfuel.com/wallpapers/154/398/desktop-wallpaper-sb-cars-on-anime-scenery-anime-scenery-vaporwave-futuristic-tokyo.jpg");
+ }
+
+ .item:nth-child(5) {
+    background-image: url("https://storage.googleapis.com/pai-images/c16d67303ff74bbc9701ad9f6084e880.jpeg");
+ }
+
+ .item {
+    background-position: center;
+    background-size: cover;
+    transition: flex 0.8s ease;
+ }
+
+ .item:hover {
+    flex: 5;
+ }
